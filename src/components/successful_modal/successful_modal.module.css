@@ -1,5 +1,77 @@
-.poster_wrapper {
-    width: 900px;
+.successful_wrapper {
+    background: #86D3F4;
+    display: flex;
+}
+
+.successful {
+    width: 420px;
+    height: 200px;
+    margin: auto 0;
+    padding: 5px;
+}
+
+.successful h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.successful p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.poster_container {
+    width: 80%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: url("https://s3-alpha-sig.figma.com/img/ed60/0fa7/5801b7cb4ccd2f7293f8fc7e0ec6f4f1?Expires=1645401600&Signature=ALTYHSiD4oV-HfqKBeXH-fD1gxe3JYsMZaLBaAVDBzLjJX~LH9AEi-jVSLAB47WWsJZPLJ~EFeNO~2pOXEaHoGmcYKXsLB7LZi~3LELw1ALhUuiWU4~TLniz9FLUkUJ7YyT-AeQctIxUkVtVLY2REMueK8-I8Oz9IVQ0t6wSrUCh3WYdk19faaXdW0rUHxzT4DS1YEhchY2~P18K2pCJHgVlPM2oHpVtBJCbce93L9CiEllpD9wnJ0pWjf3UhY4FP6gJHfEVlamnIccHkRfd8D5JxgsFZgFuUzwex9GU0ZDXt9Ho188dxHByWHq5CqmWZ-vsAef2pMpQIheA3QcphQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") 83% 70%;
     background-size: 150%;
+}
+.btn_close {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px auto auto;
+    background: black;
+
+}
+.btn_close:before {
+    top: 22px;
+    left: 9px;
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(43deg);
+}
+.btn_close:after {
+    content: '';
+    top: 22px;
+    left: 9px;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(135deg);
+}
+.poster_note {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: auto 10px 10px auto;
+    text-transform: uppercase;
+}
+.qr {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+}
+.poster_note p {
+    color: white;
+    text-align: end;
+    margin: auto 5px;
 }
